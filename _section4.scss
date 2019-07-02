@@ -1,0 +1,31 @@
+#section4 {
+  position: relative;
+  height: 90vh;
+  background-image: url("./images/full-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 50px;
+
+  .S4-txt {
+    position: absolute;
+    margin: 25% 0 0 18%;
+    width: 38vw;
+    color: white;
+    h1 {
+      font-size: 40px;
+      letter-spacing: 3px;
+    }
+    p {
+      padding-top: 3%;
+
+      font-size: 15px;
+    }
+    i {
+      margin-left: 2%;
+    }
+
+    #para {
+      padding-top: 4%;
+    }
+  }
+}

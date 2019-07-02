@@ -1,0 +1,16 @@
+@mixin bloc (){
+    height:50%;
+    width: 50vh;
+
+}
+@mixin bloctxt (){
+    height: 60vh;
+            color: white;
+            padding: 10% 0 0 8%;
+}
+
+@mixin bloctxt2 (){
+            height: 60vh;
+            color: white;
+            padding: 4% 0 0 8%;
+}

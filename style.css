@@ -1,0 +1,354 @@
+header {
+  position: relative;
+}
+header #logo {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 5em;
+}
+header #logo img {
+  height: 30px;
+  width: 30px;
+}
+header #logo p {
+  padding-right: 30%;
+  color: white;
+}
+header #header-background {
+  height: 100vh;
+  width: 100%;
+}
+header #background-txt {
+  position: absolute;
+  left: 15%;
+  bottom: 50%;
+  color: white;
+}
+header #iphone {
+  position: absolute;
+  right: 10%;
+  top: 30%;
+  height: 100%;
+}
+
+#section1 {
+  position: relative;
+  height: 51vh;
+  margin: 5% 15% 0 15%;
+}
+#section1 #s1-txt {
+  width: 33vw;
+}
+#section1 #s1-txt p {
+  padding-top: 4%;
+}
+#section1 #s1-txt2 {
+  position: absolute;
+  right: 0;
+  bottom: 33%;
+  width: 35vw;
+}
+
+#section2 {
+  height: 66.3vh;
+  position: relative;
+  margin: 0 15% 0 15%;
+}
+#section2 i {
+  margin-left: 2%;
+}
+#section2 #container-bloc1 {
+  display: flex;
+  flex-direction: row;
+  height: 53vh;
+}
+#section2 #container-bloc1 #bloc {
+  height: 50%;
+  width: 50vh;
+  background-image: url("./images/box-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#section2 #container-bloc1 #blocA {
+  height: 50%;
+  width: 50vh;
+  background: pink;
+}
+#section2 #container-bloc1 #blocB {
+  height: 50%;
+  width: 50vh;
+  background: purple;
+}
+#section2 #container-bloc1 .bloc-txt {
+  height: 60vh;
+  color: white;
+  padding: 10% 0 0 8%;
+}
+#section2 #container-bloc1 .bloc-txt p {
+  font-size: 15px;
+  padding-top: 2%;
+}
+#section2 #container-bloc1 .bloc-txt #para {
+  padding-top: 10%;
+}
+#section2 #container-bloc2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 11.8em;
+  height: 32vh;
+}
+#section2 #container-bloc2 #bloc1 {
+  width: 99.7vh;
+  background-image: url("./images//box-bg-lg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#section2 #container-bloc2 #bloc1 .bloc-txt2 {
+  height: 60vh;
+  color: white;
+  padding: 4% 0 0 8%;
+}
+#section2 #container-bloc2 #bloc1 .bloc-txt2 p {
+  font-size: 15px;
+  padding-top: 2%;
+}
+#section2 #container-bloc2 #bloc1 .bloc-txt2 #para {
+  padding-top: 4%;
+}
+#section2 #container-bloc2 #bloc2 {
+  width: 50vh;
+  background: blue;
+}
+#section2 #container-bloc2 .bloc-txt {
+  height: 60vh;
+  color: white;
+  padding: 10% 0 0 8%;
+}
+#section2 #container-bloc2 .bloc-txt p {
+  font-size: 15px;
+  padding-top: 2%;
+}
+#section2 #container-bloc2 .bloc-txt #para {
+  padding-top: 10%;
+}
+
+#section3 {
+  margin-top: 10%;
+  height: 74vh;
+  margin: 0 15% 0 15%;
+  position: relative;
+}
+#section3 #containerS3-txt {
+  display: flex;
+  padding-top: 20%;
+}
+#section3 h1 {
+  position: absolute;
+  top: 15%;
+  letter-spacing: 2px;
+}
+#section3 #S3-txt {
+  display: flex;
+  padding-right: 3%;
+  flex-direction: column;
+  height: 30vh;
+  width: 34vh;
+}
+#section3 #S3-txt p {
+  font-size: 18px;
+  padding-top: 7%;
+}
+
+#section4 {
+  position: relative;
+  height: 90vh;
+  background-image: url("./images/full-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 50px;
+}
+#section4 .S4-txt {
+  position: absolute;
+  margin: 25% 0 0 18%;
+  width: 38vw;
+  color: white;
+}
+#section4 .S4-txt h1 {
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+#section4 .S4-txt p {
+  padding-top: 3%;
+  font-size: 15px;
+}
+#section4 .S4-txt i {
+  margin-left: 2%;
+}
+#section4 .S4-txt #para {
+  padding-top: 4%;
+}
+
+#section5 {
+  position: relative;
+  bottom: 7%;
+  height: 65vh;
+  background-color: lightblue;
+  padding: 3% 0 0 15%;
+  color: white;
+}
+#section5 #containerS5-txt {
+  position: absolute;
+  bottom: 6%;
+  right: 7%;
+  display: flex;
+}
+#section5 #containerS5-title {
+  padding: 3% 0 0 10%;
+  letter-spacing: 2px;
+}
+#section5 #S5-txt {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  width: 50vh;
+  margin: 0 5% 10% 0;
+}
+#section5 #S5-txt h4 {
+  font-size: 15px;
+}
+#section5 #S5-txt p {
+  font-size: 15px;
+  padding-top: 7%;
+}
+
+#section6 {
+  position: relative;
+  height: 50vh;
+}
+#section6 #S6-txt2 {
+  width: 55vh;
+  height: 30vh;
+}
+#section6 #containerS6-txt {
+  display: flex;
+  padding-top: 5%;
+  padding-left: 25%;
+  height: 45vh;
+}
+#section6 #containerS6-txt h4 {
+  padding-top: 3%;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+#section6 #containerS6-txt button {
+  text-transform: uppercase;
+  color: white;
+  background-color: lightgreen;
+  border-radius: 5%;
+  height: 30px;
+  width: 95px;
+  box-shadow: none;
+  border: none;
+}
+#section6 #containerS6-txt .fa-apple {
+  font-size: 34px;
+  font-size: 40px;
+}
+#section6 #containerS6-txt .fa-windows {
+  font-size: 34px;
+  padding-left: 2%;
+}
+#section6 #S6-txt1 {
+  height: 30vh;
+  width: 55vh;
+}
+#section6 #S6-txt1 p {
+  font-size: 15px;
+  padding-top: 5%;
+}
+#section6 #S6-txt1 .btn1 {
+  width: 60px;
+  background-color: #908a8a;
+}
+#section6 p {
+  padding-top: 5%;
+  font-size: 15px;
+}
+#section6 i {
+  margin-top: 3%;
+}
+#section6 .btn2 {
+  margin-top: 2%;
+}
+#section6 .btn3 {
+  font-size: 12px;
+}
+
+footer {
+  position: relative;
+  background-color: #083838;
+  height: 60vh;
+  color: white;
+}
+footer #containerfooter1 {
+  margin: 0 15% 0 15%;
+}
+footer #containerfooter1 #footerDiv1 {
+  padding-top: 10%;
+  display: flex;
+}
+footer #containerfooter1 #footerDiv1 input {
+  width: 30vw;
+  height: 5vh;
+  border-radius: 2%;
+  border: none;
+}
+footer #containerfooter1 #footerDiv1 button {
+  width: 5vh;
+  height: 5vh;
+  background-color: lightgreen;
+  border: none;
+  font-size: 30px;
+  transform: translateY(15%);
+}
+footer #containerfooter1 #footerDiv1 #footerNav {
+  width: 70vw;
+  padding-left: 2%;
+}
+footer #containerfooter1 #footerDiv1 #footerNav p {
+  color: grey;
+  font-size: 15px;
+}
+footer #containerfooter1 #footerDiv1 #footerTxt {
+  width: 60vw;
+}
+footer #containerfooter1 #footerDiv1 #footerTxt p {
+  padding-top: 2%;
+  font-size: 15px;
+}
+footer #containerfooter1 #footerDiv2 {
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+}
+footer #containerfooter1 #footerDiv2 p {
+  font-size: 15px;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */

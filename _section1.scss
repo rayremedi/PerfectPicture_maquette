@@ -1,0 +1,22 @@
+#section1{
+    position: relative;
+    // border: 4px solid red;
+    height: 51vh;
+    margin: 5% 15% 0 15%;
+    #s1-txt{
+        width: 33vw;
+        // border: 4px solid green;
+
+        p{
+            padding-top: 4%;
+        }
+    }
+    #s1-txt2{
+        position: absolute;
+        right: 0;
+        bottom: 33%;
+        width: 35vw;
+        // border: 4px solid blue;
+        
+    }
+}

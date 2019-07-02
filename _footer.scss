@@ -1,0 +1,57 @@
+footer {
+  position: relative;
+  background-color: rgb(8, 56, 56);
+  height: 60vh;
+  color: white;
+
+  #containerfooter1 {
+    margin: 0 15% 0 15%;
+
+    #footerDiv1 {
+      padding-top: 10%;
+      display: flex;
+      input {
+        width: 30vw;
+        height: 5vh;
+        border-radius: 2%;
+        border: none;
+      }
+      button {
+        width: 5vh;
+        height: 5vh;
+        background-color: lightgreen;
+        border: none;
+        font-size: 30px;
+        transform: translateY(15%);
+      }
+      #footerNav {
+        width: 70vw;
+        padding-left: 2%;
+
+        p {
+          color: grey;
+          font-size: 15px;
+        }
+      }
+
+      #footerTxt {
+        width: 60vw;
+
+        p {
+          padding-top: 2%;
+          font-size: 15px;
+        }
+      }
+    }
+
+    #footerDiv2 {
+      padding-top: 5%;
+      display: flex;
+      justify-content: space-between;
+      width: 30vw;
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}

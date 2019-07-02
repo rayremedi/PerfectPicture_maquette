@@ -1,0 +1,28 @@
+#section3 {
+  margin-top: 10%;
+  height: 74vh;
+  margin: 0 15% 0 15%;
+  position: relative;
+
+  #containerS3-txt {
+    display: flex;
+    padding-top: 20%;
+  }
+  h1 {
+    position: absolute;
+    top: 15%;
+    letter-spacing: 2px;
+  }
+  #S3-txt {
+    display: flex;
+    padding-right: 3%;
+    flex-direction: column;
+    height: 30vh;
+    width: 34vh;
+
+    p {
+      font-size: 18px;
+      padding-top: 7%;
+    }
+  }
+}
